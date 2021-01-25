@@ -1,226 +1,368 @@
 
-/*CSS Variables*/
-:root{
---primary:#ddd;
---on:#990011;
---dark:#333;
---light:#fcfeff;
---shadow:0 1px 5px rgba(104,104,104,0.8);
---grad:linear-gradient( to right, #00b7ff ,#ffffc7);
---transb:linear-gradient( to left, #00b7ff ,#ffffc7);
-font-size: 1
+
+*{
+	margin:0;
+	padding: 0;
+scroll-behavior: smooth;
+	font-family: 'Roboto', sans-serif;
+
 }
-
-
-/*general tags*/
+html{
+	background-color:#fcfeff ;
+color: #000000;
+}
 body{
- font-family: 'Roboto', sans-serif;
-background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 2px,rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 3px,transparent 3px, transparent 5px,rgba(0,0,0,0.03) 5px, rgba(0,0,0,0.03) 7px),repeating-radial-gradient(circle at center center, rgb(255,255,255) 0px, rgb(255,255,255) 9px,rgb(255,255,255) 9px, rgb(255,255,255) 21px,rgb(255,255,255) 21px, rgb(255,255,255) 31px,rgb(255,255,255) 31px, rgb(255,255,255) 40px); background-size: 20px 20px;
-  margin:0;
+	
+}
+img{
+	width:100%;
+}
+
+/* navbar */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+  margin: 0;
   padding: 0;
-  line-height: 1.4;
-color: var(--on);
+  
+  box-sizing: border-box;
+}
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.nav {
+background-color:#fcfeff ;
+  width: 100%;
+  height: 55px;
+  overflow: hidden;
+  transition: height .5s ease-in-out;
+  position: fixed;
+  top:0;
+
+}
+.nav-brand, .nav-link, .nav-collapse {
+  display: inline-block;
+}
+.nav-brand, .nav-link {
+ 
+
+  text-decoration: none;
+  line-height: 55px;
+  padding: 0 1rem;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.nav-brand {
+  font-size: 1.25rem;
+   color:#55198b ;
+ font-family: 'Balsamiq Sans', cursive;
+}
+.nav-link {
+  font-size: 1rem;
+   color:#000000 ;
+}
+.nav-collapse {
+  float: right;
+}
+.toggler {
+  float: right;
+  width: 40px;
+  height: 18px;
+  margin: 18.5px 0;
+  background: none;
+  border: none;
+  outline: none;
+  display: none;
+  opacity: 0.8;
+}
+.toggler span {
+  display: block;
+  width: 90%;
+  height: 2px;
+  background:#55198b;
+  position: relative;
+  transition: .25s ease-in-out;
+}
+.toggler span:nth-child(1) {
+  top: -7.5px;
+}
+.toggler span:nth-child(2) {
+  top: 0;
+}
+.toggler span:nth-child(3) {
+  top: 7.5px;
+}
+
+.nav-brand:hover, .nav-link:hover, .toggler:hover, 
+.nav-brand:focus, .nav-link:focus, .toggler:focus {
+  opacity: 1;
+}
+
+.nav.open .toggler span:nth-child(1) {
+  transform: translateY(8.5px) rotate(45deg);
+}
+.nav.open .toggler span:nth-child(2) {
+  transform: translateX(-100%);
+  width: 0;
+  opacity: 0;
+}
+.nav.open .toggler span:nth-child(3) {
+  transform: translateY(-8.5px) rotate(-45deg);
+}
+.nav.open {
+  height: 100vh;
+}
+
+@media (max-width: 767px) {
+  .nav-collapse, .nav-link {
+    float: none;
+    display: block;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  .toggler {
+    display: block;
+  }
+}
+
+ nav.scrolled {
+  background: #fcfeff;
+  box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+}
+
+/*end of navbar*/
+
+/*topband*/
+
+.topband{
+  margin-top: 60px;
+  display: grid;
+ background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3) ),url("images/19449742.jpg");
+ background-size: cover;
+ background-position: center;
+
+
+
+ 
+
+}
+.inner{
+  margin:auto;
+  width: 80%;
+   align-items: center;
+ justify-content: center;
+  height: 80vh;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+
+ text-align: center;
+ color: #173753;
+ 
+}
+.topband img{
+  border-radius: 20px;
+    width: 50%;
+    box-shadow: 10px 10px  #fff;
+}
+
+.one{
+  font-size: 3rem;
+
+  font-family: 'Balsamiq Sans', cursive;
+}
+.two, .three{
+  font-size: 2rem;
+  font-weight: 200;
+  font-family: 'Balsamiq Sans', cursive;
+}
+.topband a{
+color:#173753;
+  text-decoration: none;
+  padding: 15px 40px;
+  background-color: #fcfeff;
+  margin: auto 20px;
+  font-family: 'Balsamiq Sans', cursive;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 #173753;
+  transition: .5s ease-in-out;
+}
+.topband a:hover{
+color:#fcfeff;
+  text-decoration: none;
+  padding: 15px 40px;
+  background-color:#173753 ;
+  margin: auto 20px;
+  font-family: 'Balsamiq Sans', cursive;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 #fcfeff;
+}
+.buttons{
+  padding: 30px;
+  
+
+}
+
+/* end of topband*/
+
+/* Vertical text
+
+.vert{
+  position: absolute;
+  width: 1;
+
+  top :550px;
+  writing-mode: vertical-lr;
+  font-size: 1rem;
+    
+}*/
+/* Skills*/
+
+.Skills{
+  width:60%;
+  margin:30px auto;
+  color: #868e96;
+  text-align: center;
+
+}
+
+.icons{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 50px auto;
+}
+.htm,.css,.js,.xd,.jquery,.figma{
+ 
+  align-items: center;
+  justify-content: center;
+display: grid;
+grid-gap: .5rem;
 }
 
 
-
-nav{
-	background-color: var(--on);
-width:100%;
-padding: 1.3rem 0;
-position: fixed;
-z-index: 1;
-}
-nav ul{
-	list-style: none;
-margin: 0;
-display: flex;
-justify-content: space-around;
-}
-
-nav a{
-	color: var(--light);
-	text-decoration: none;
-}
-
-nav a:hover{
-	border-bottom: 2px dotted var(--light);
-}
-.about{
-	padding-top:3rem;
-}
-
-.c a i:hover{
-/*animation: bounce .7s linear; */
-color: #dc3545;
-
-}
-
-.languages,.frameworks,.programs,.Stacks{
-overflow-x: hidden;
-overflow-y: hidden;
-}
-.c h1{
-	margin: 0;
-	font-size: 3rem;
-	font-weight: 700;
-}
-.c h2,.icons{
-	margin: 0;
-	font-size: 1.5rem;
-	font-weight: 400;
-	text-align: center;
-}
-
-.icons a{
-	margin:auto 5px;
-}
-
- .icons a{
-color: var(--on);
-	text-decoration: none;
-
-
-}
-
-.c{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	height: 50vh;
-}
-
-.pic{
-	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('mmm.jpg');
-	height: 50vh;
-background-size:cover;
-
-background-repeat: no-repeat;
-
-}
-
-.Stacks{
-margin: 60px  auto;
-
-	text-align: center;
-}
-.Stacks ul{
-	list-style: none;
-}
-
-.portfolio h1{
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-.projects a{
-	color: var(--on);
-	text-decoration: none;
-	padding: 10px 40px;
-	border: 2px solid var(--on);
-
-	background-image: linear-gradient(to right, #990011 50%, transparent 50%);
-background-position:100% 0%;
-
-background-size: 200% 100%;
-transition:  0.5s;
-}
+/* End of Skills*/
 
 
 
-.projects a:hover{
-	color:#fcfeff;
-background-position: 0% 50%;
-    box-shadow: var(--shadow);
-}
-
-.projects {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	width:90%;
-	margin:auto;
-
-}
-
-
-.dart,.flutter,.nsmq{
-padding: 30px 20px;
-	margin: 30px auto;
-	background-color: var(--light);
-	box-shadow: var(--shadow);
-}
-
-
-#an{
-	 animation: linear infinite alternate;
-  animation-name: run;
-  animation-duration: 1s;
-}
-
-
-@-webkit-keyframes bounce {
-    0%,  
-    100% {
-       -webkit-transform: translateY(0);
-    } 
-    50% {
-        -webkit-transform: translateY(-10px);
-    }
-}
-
-@-webkit-keyframes run {
-    0% {
-      
-      transform: rotate(30deg);
-    }
-     100% {
-      
-      transform: rotate(-30deg);
-      
-
-    }
+/*Portfolio*/
+.Portfolio{
+  width:90%;
+  margin:30px auto;
   
 }
-
-
-
-@media(min-width: 517px){
-
-
-	.c,.pic{
-		height: 80vh;
-	}
+.inside{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:1rem;
 }
-
-@media(min-width: 620px){
-
-
-	.c,.pic{
-		height: 100vh;
-	}
-}
-
-@media(min-width: 1020px){
-
-.Stacks{
-	display: flex;
-	width:80%;
-	justify-content: space-between;
-}
-
-
-.projects {
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	text-align: center;
-	grid-gap: 1rem;
+.Portfolio h1{
+margin: 30px auto;
+text-align: center;
 
 }
+.Portfolio p,.Portfolio h1, .linkss a {
+color:#868e96;
 
-.pic{
-	height: 100vh;
+}
+.linkss a{
+  color: #fcfeff;
+  text-decoration: none;
+  padding: 10px 10px;
+  background-color: #868e96;
+  border-radius: 5px;
+}
+.linkss a:hover{
+  
+  background-color: #173753;
+ 
+}
+.nsmq, .Solace, .Mawuli, .RealEstate, .Blog{
+  padding: 20px 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 36px;
+  display: grid;
+  grid-gap: 10px;
+  border-radius: 10px;
+}
+.linkss{
+  display: flex;
+  justify-content: space-around;
 }
 
-	}
+
+
+
+
+
+
+
+
+
+
+
+/*Contacts*/
+.contacts{
+  color: #868e96;
+  border-top: 1px solid rgba(134,142,150,.3);
+  margin: 30px auto;
+  width:90%;
+
+}
+.gridd{
+  display: flex;
+  justify-content: space-around;
+}
+.school,.location{
+   display: flex;
+   align-items: center;
+
+   flex-direction: row;
+
+};
+.socials{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.socials svg:hover{
+  cursor: pointer;
+  fill: #868e96;
+  stroke: #868e96;
+}
+.h{
+  margin: 30px auto;
+text-align: center;
+}
+
+
+
+
+<style>
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #173753;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+
+}
+</style>

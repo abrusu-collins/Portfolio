@@ -1,16 +1,20 @@
-$('.Knowledge').on('click',function(){
-	const Knowledge=$('#Knowledge').position().top;
+var navbar = document.querySelector('.nav')
 
-	$('html,body').animate({
-		scrollTop:Knowledge
-	},900);
-});
+window.onscroll = function() {
+
+  // pageYOffset or scrollY
+  if (window.pageYOffset > 0) {
+    navbar.classList.add('scrolled')
+  } else {
+    navbar.classList.remove('scrolled')
+  }
+}
 
 
-$('.portfolio').on('click',function(){
-	const portfolio=$('#portfolio').position().top;
+document.querySelector('.toggler').onclick = () => {
+  document.querySelector('.nav').classList.toggle('open');
+}
 
-	$('html,body').animate({
-		scrollTop:portfolio
-	},900);
-});
+
+
+
