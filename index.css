@@ -11,8 +11,9 @@ html{
 	background-color:#fcfeff ;
 color: #000000;
 }
-body{
-	
+::selection {
+  color: red;
+  background: yellow;
 }
 img{
 	width:100%;
@@ -80,7 +81,7 @@ background-color:#fcfeff ;
   display: block;
   width: 90%;
   height: 2px;
-  background:#55198b;
+  background:#868e96;
   position: relative;
   transition: .25s ease-in-out;
 }
@@ -218,6 +219,19 @@ color:#fcfeff;
     
 }*/
 /* Skills*/
+h4.hov {
+  writing-mode: vertical-rl;
+  z-index: -1;
+  position: absolute;
+  height:60%;
+  font-size: 1.2rem;
+  top:45rem;
+  left:10px;
+color:#fcfeff;
+background-color:#868e96; 
+text-align: center;
+border-radius: 5px;
+}
 
 .Skills{
   width:60%;
@@ -324,15 +338,288 @@ color:#868e96;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-.socials svg:hover{
-  cursor: pointer;
-  fill: #868e96;
-  stroke: #868e96;
-}
+
 .h{
   margin: 30px auto;
 text-align: center;
 }
+
+
+
+
+
+
+/*Topband Media Queries*/
+@media(max-width: 1141px){
+
+.topband img{
+  width:60%;
+}
+
+
+}
+
+@media(max-width: 1063px){
+
+.inner{
+  width:90%;
+}
+
+
+}
+
+
+@media(max-width: 940px){
+
+.inner{
+grid-template-columns: 1fr;
+height:150vh;
+
+}
+
+.topband img{
+margin: auto;
+  width:40%;
+}
+}
+@media(max-width: 612px){
+.topband img{
+
+  width:50%;
+}
+
+}
+
+@media(max-width: 530px){
+.topband img{
+
+  width:60%;
+}
+
+}
+
+
+@media(max-width: 472px){
+.topband a{
+
+  padding:10px 30px;
+}
+
+}
+
+@media(max-width: 432px){
+.topband a{
+
+  padding:10px 20px;
+}
+.topband img{
+  width:80%;
+}
+}
+
+
+@media(max-width: 384px){
+.topband a{
+
+  padding:10px 10px;
+}
+.buttons{
+  padding: 20px;
+  
+
+}
+}
+/*End of Topband Media Queries*/
+
+
+/*Skills Media Queries*/
+
+@media(max-width: 985px){
+
+h4.hov{
+
+  top:40rem;
+}
+}
+
+@media(max-width: 940px){
+
+h4.hov{
+
+  top:65rem;
+}
+}
+
+@media(max-width: 875px){
+
+h4.hov{
+
+  top:71rem;
+}
+}
+
+@media(max-width: 540px){
+
+h4.hov{
+
+  top:83rem;
+}
+}
+
+@media(max-width: 875px){
+
+.icons{
+  grid-template-columns: repeat(2,1fr);
+}
+
+}
+
+@media(max-width: 540px){
+
+.icons{
+  grid-template-columns: repeat(1,1fr);
+}
+
+}
+
+/*End of Skills Media Queries*/
+
+
+/*Project Media Queries*/
+@media(max-width:1085px ){
+
+  .inside{
+    grid-template-columns: repeat(1,1fr);
+    width:60%;
+    margin: auto;
+  }
+}
+
+
+@media(max-width:895px ){
+
+  .inside{
+    grid-template-columns: repeat(1,1fr);
+    width:70%;
+    margin: auto;
+  }
+}
+
+@media(max-width:771px ){
+
+  .inside{
+    grid-template-columns: repeat(1,1fr);
+    width:80%;
+    margin: auto;
+  }
+}
+
+@media(max-width:641px ){
+
+  .inside{
+    grid-template-columns: repeat(1,1fr);
+    width:90%;
+    margin: auto;
+  }
+}
+
+@media(max-width:567px ){
+
+  .inside{
+    grid-template-columns: repeat(1,1fr);
+    width:98%;
+    margin: auto;
+  }
+
+  .yyy{
+    display: flex;
+  justify-content: space-between;
+  }
+}
+
+@media(max-width:510px ){
+
+  .inside{
+    grid-template-columns: repeat(1,1fr);
+    width:98%;
+    margin: auto;
+  }
+
+  .linkss{
+    display: grid;
+    grid-gap: 1rem;
+    text-align: center;
+  }
+}
+
+/*End of Project Media Queries*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  overflow: hidden;
+}
+
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(Preloader_71.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+
+
+
+
+
+
+
+
+
 
 
 
