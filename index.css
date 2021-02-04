@@ -191,12 +191,11 @@ color:#173753;
 }
 .topband a:hover{
 color:#fcfeff;
-  text-decoration: none;
-  padding: 15px 40px;
+  
   background-color:#173753 ;
-  margin: auto 20px;
-  font-family: 'Balsamiq Sans', cursive;
-  border-radius: 5px;
+
+  
+  
   box-shadow: 10px 10px 0 #fcfeff;
 }
 .buttons{
