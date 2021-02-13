@@ -4,7 +4,7 @@
 	margin:0;
 	padding: 0;
 scroll-behavior: smooth;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 
 }
 html{
@@ -212,7 +212,7 @@ h4.hov {
   writing-mode: vertical-rl;
   z-index: -1;
   position: absolute;
-  height:60%;
+  height:70%;
 padding: auto auto;
   
   font-size: 1.2rem;
@@ -271,23 +271,27 @@ color:#868e96;
 
 }
 .linkss a{
-  color: #fcfeff;
+  color: #000;
   text-decoration: none;
   padding: 10px 10px;
-  background-color: #868e96;
+  background-color: #fff;
   border-radius: 5px;
+  border:1px solid rgba(134,142,150,.3);
+
 }
 .linkss a:hover{
   
-  background-color: #173753;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 36px;
  
 }
+
 .nsmq, .Solace, .Mawuli, .RealEstate, .Blog{
   padding: 20px 40px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 36px;
   display: grid;
   grid-gap: 10px;
   border-radius: 10px;
+  border:1px solid rgba(134,142,150,.3);
 }
 
 
@@ -314,6 +318,7 @@ color:#868e96;
 
 
 /*Contacts*/
+
 .contacts{
   color: #868e96;
   border-top: 1px solid rgba(134,142,150,.3);
