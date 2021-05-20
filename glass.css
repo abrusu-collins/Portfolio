@@ -1,0 +1,384 @@
+:root{
+	--main_background:  linear-gradient( 99deg,  rgba(255,166,0,1) 14.7%, rgba(255,99,97,1) 73% );
+	--glass:linear-gradient(to right bottom, rgba(255,255,255,.7),rgba(255,255,255,.3));
+    --link: radial-gradient( circle 966px at 6.9% 10.8%,  rgba(92,123,237,1) 0%, rgba(147,186,252,1) 90% );
+	--light:#fcfeff;
+};
+
+
+*{
+	margin:0;
+	padding:0;
+box-sizing: border-box;
+
+}
+body{
+	background: var(--main_background);
+	font-family: 'Poppins', sans-serif;
+}
+
+img{
+	width:100%;
+	
+
+}
+.img_container{
+height:200px;
+overflow:hidden;
+
+}
+
+
+.clip{
+	background-color: #f3ec78;
+    background-image: var(--main_background);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+main{
+min-height:95vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.glass{
+
+background:var(--glass);
+width:75%;
+min-height: 90vh;
+ backdrop-filter:blur(2rem);
+border-radius:8px;
+display: flex;
+
+
+
+}
+
+.dashboard{
+	flex:1;
+	background:var(--glass);
+	border-top-left-radius:8px;
+	border-bottom-left-radius: 8px;
+}
+.profile{
+	text-align: center;
+	
+
+}
+
+
+.profile h4{
+	margin-top: -19px;
+}
+.profile h3{
+	margin-top:5px;
+}
+.content{
+
+	flex:3;
+
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+.menu{
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+
+}
+
+.menu a{
+	width:100%;
+	text-align: center;
+text-decoration: none;
+color:#3498DB;
+margin-bottom: 20px;
+
+padding:6px 0;
+
+
+
+
+}
+/*Controls*/
+
+
+section{
+	
+	display: none;
+}
+
+
+/*Home*/
+
+.home{
+display: grid;
+place-items:center;
+
+
+}
+.home h3{
+color: #CB4335;
+}
+.home a{
+	text-decoration: none;
+	color:white;
+	background:var(--main_background);
+	padding:10px 40px;
+	border-radius:4px;
+
+}
+
+.home a:hover{
+	transform: translateY(-6%);
+}
+.description{
+	
+	color: #CB4335;
+	width:60%;
+
+}
+
+.buttons {
+	display: grid;
+  grid-template-columns: repeat(2,1fr);
+	grid-gap: 1rem;
+}
+/*Skills*/
+.skills{
+	font-size: 20px;
+	
+}
+
+
+.skills ul{
+	
+    font-weight:700;
+    list-style-type:lower-roman;
+}
+.skills h2{
+	color: #CB4335;
+}
+
+
+/*Contacts*/
+
+.contacts h2{
+	color:#CB4335;
+}
+
+.contacts a{
+	text-decoration: none;
+text-decoration: none;
+	color:white;
+	background:var(--main_background);
+	border-radius:4px;
+
+}
+
+
+.socials a, .Phone a{
+
+	padding:10px 40px;
+	}
+
+	.Email a{
+		padding:10px 30px;
+	}
+.contacts h1{
+	color: #641E16;
+}
+
+.contacts a:hover{
+	transform: translateY(-6%);
+}
+
+/*Projects*/
+
+.projects h1{
+	color: #641E16;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 220px;
+  height: 220px;
+ 
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  border-radius:5px;
+ 	
+
+
+
+}
+
+.card-container{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+width:100%;
+grid-gap: 1rem;
+
+
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+
+
+
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius:5px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background: var(--main_background);
+  color: #fcfeff;
+  overflow: hidden;
+
+
+ }
+.flip-card-front img{
+	width:10%;
+}
+/* Style the back side */
+.flip-card-back {
+  background: var(--glass);
+  color: white;
+  transform: rotateY(180deg);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.flip-card-back a{
+	background: var(--main_background);
+	color:#fcfeff;
+	text-decoration: none;
+	padding:10px 40px;
+	border-radius:5px;
+
+	margin-bottom: 15px;
+
+}
+
+
+/*Display None class*/
+
+.dn{
+	display: none;
+}
+
+/*Background change on click class*/
+.bcc{
+
+	color:#fcfeff !important;
+	background: var(--main_background);
+}
+
+
+/*Display class*/
+
+.ds{
+	display: flex;
+}
+
+
+/*Media Queries*/
+
+
+@media(max-width:920px){
+main{
+	align-items: flex-start;
+}
+.glass{
+	flex-direction: column;
+
+}
+
+
+
+
+.menu a{
+	border-radius:5px;
+}
+
+img{
+	width:45%;
+}
+main{
+
+	height:170vh;
+}
+
+.dashboard{
+
+	flex:1;
+}
+
+
+.content{
+	padding-bottom: 50px;
+}
+
+.menu{
+	padding:10px;
+    flex-direction: row;
+}
+
+}
+
+
+
+
+
+@media(max-width:721px){
+	main{
+		display: none;
+	}
+
+	section{
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 20px;
+	min-height:100vh;
+	}
+
+	body{
+		background: var(--light);
+
+}
