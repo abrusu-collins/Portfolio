@@ -382,3 +382,52 @@ main{
 		background: var(--light);
 
 }
+
+
+}
+
+
+
+@media(min-width:1600px){
+.img_container{
+
+
+	height:250px;
+}
+
+
+.menu a{
+	
+margin-bottom: 50px;
+
+
+}
+
+}
+
+
+@media(min-width:1900px){
+.dashboard{
+display: flex;
+flex-direction: column;
+
+}
+
+
+.profile{
+	flex:1;
+}
+
+.menu{
+	flex:2;
+}
+
+.img_container{
+	height:300px;
+}
+
+.profile h3{
+	margin-top: 30px;
+}
+
+}
