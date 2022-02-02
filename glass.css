@@ -131,6 +131,8 @@ place-items:center;
 }
 .home h3{
 color: #CB4335;
+margin-left: -120px;
+font-size: 20px;
 }
 .home a{
 	text-decoration: none;
