@@ -130,7 +130,7 @@ place-items:center;
 
 }
 .home h3{
-color: #CB4335;
+color: #641E16;
 margin-left: -120px;
 font-size: 20px;
 }
@@ -146,6 +146,8 @@ font-size: 20px;
 .home a:hover{
 	transform: translateY(-6%);
 }
+
+
 .description{
 	
 	color: #CB4335;
@@ -171,7 +173,7 @@ font-size: 20px;
     list-style-type:lower-roman;
 }
 .skills h2{
-	color: #CB4335;
+	color: #641E16;
 }
 
 
