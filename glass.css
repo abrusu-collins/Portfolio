@@ -172,6 +172,7 @@ text-transform: uppercase;
 	
     font-weight:700;
     list-style-type:lower-roman;
+    color: #CB4335;
 }
 .skills h3{
 	color: #641E16;
@@ -272,8 +273,8 @@ grid-gap: 1rem;
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background: var(--main_background);
-  color: #fcfeff;
+  background: var(--glass);
+  color: #CB4335;
   overflow: hidden;
 
 
