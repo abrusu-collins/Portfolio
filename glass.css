@@ -9,12 +9,12 @@
 };
 
 
-*{
-	margin:0;
-	padding:0;
-box-sizing: border-box;
-
-}
+* {
+	margin: 0;
+	padding: 0;
+	
+	box-sizing: border-box;
+  }
 body{
 	background: var(--main_background);
 	font-family: 'Poppins', sans-serif;
@@ -394,6 +394,12 @@ main{
 		background: var(--grey);
 
 }
+* {
+	margin: 0;
+	padding: 0;
+	
+	box-sizing: border-box;
+  }
 }
 
 
@@ -403,12 +409,7 @@ main{
 /*MOBILE*/
 /* navbar */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  
-  box-sizing: border-box;
-}
+
 .container {
   max-width: 920px;
   margin: 0 auto;
