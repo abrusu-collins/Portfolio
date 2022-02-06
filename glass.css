@@ -1,5 +1,5 @@
 :root{
-	--main_background:  linear-gradient( 99deg,  rgba(255,166,0,1) 14.7%, rgba(255,99,97,1) 73% );
+	--main_background:  linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
 	--glass:linear-gradient(to right bottom, rgba(255,255,255,.7),rgba(255,255,255,.3));
     --link: radial-gradient( circle 966px at 6.9% 10.8%,  rgba(92,123,237,1) 0%, rgba(147,186,252,1) 90% );
 	--light:#fcfeff;
@@ -16,7 +16,7 @@
 	box-sizing: border-box;
   }
 body{
-	background:var(--main_background);
+	background:var(--grey);
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -52,7 +52,7 @@ min-height:95vh;
 
 .glass{
 
-background:var(--glass);
+background:var(--light);
 width:75%;
 min-height: 90vh;
  backdrop-filter:blur(2rem);
@@ -65,9 +65,10 @@ display: flex;
 
 .dashboard{
 	flex:1;
-	background:var(--glass);
+	background:var(--light);
 	border-top-left-radius:8px;
 	border-bottom-left-radius: 8px;
+	border-right: 2px solid var(--grey);
 }
 .profile{
 	text-align: center;
@@ -106,7 +107,7 @@ display: flex;
 	width:100%;
 	text-align: center;
 text-decoration: none;
-color:#3498DB;
+color:var(--the-blue);
 margin-bottom: 20px;
 
 padding:6px 0;
@@ -133,11 +134,11 @@ place-items:center;
 
 }
 .home h3{
-color: #641E16;
 margin-left: -120px;
 font-size: 20px;
 text-transform: uppercase;
 }
+
 .home a{
 	text-decoration: none;
 	color:white;
@@ -154,7 +155,7 @@ text-transform: uppercase;
 
 .description{
 	
-	color: #CB4335;
+	color: var(--nav-link);
 	width:60%;
 
 }
