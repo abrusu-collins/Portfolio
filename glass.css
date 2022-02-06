@@ -531,7 +531,7 @@ main{
 	flex-direction: column;
 	margin: 20px auto;
 	color:var(--the-blue);
-	height:80vh;
+	height:88vh;
 
 
 	text-transform: uppercase;
@@ -571,3 +571,25 @@ font-size: 40px;
 
 
 /*mobile about*/
+
+
+#about{
+
+width:90%;
+margin:auto;
+background-color: var(--light);
+padding:30px;
+color:var(--nav-link);
+}
+#about p{
+	margin-bottom: 10px;
+}
+
+#about h3{
+	color:var(--the-blue);
+}
+
+#about span{
+	color:var(--nav-link);
+	font-size: 40px;
+}
