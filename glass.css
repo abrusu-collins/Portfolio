@@ -16,7 +16,7 @@
 	box-sizing: border-box;
   }
 body{
-	background: var(--main_background);
+	background:var(--main_background);
 	font-family: 'Poppins', sans-serif;
 }
 
