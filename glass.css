@@ -173,7 +173,6 @@ text-transform: uppercase;
 
 .skills ul{
 	
-    font-weight:700;
     list-style-type:upper-roman;
     color: var(--nav-link);
 }
