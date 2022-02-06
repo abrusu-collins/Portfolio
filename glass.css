@@ -97,7 +97,6 @@ display: flex;
 .menu{
 	display: flex;
 	flex-direction: column;
-
 	align-items: center;
 	justify-content: center;
 
@@ -176,10 +175,9 @@ text-transform: uppercase;
 	
     font-weight:700;
     list-style-type:upper-roman;
-    color: #CB4335;
+    color: var(--nav-link);
 }
 .skills h3{
-	color: #641E16;
   text-transform: uppercase;
 }
 
@@ -187,7 +185,7 @@ text-transform: uppercase;
 /*Contacts*/
 
 .contacts h2{
-	color:#CB4335;
+	color:var(--nav-link);
 }
 
 .contacts a{
@@ -273,12 +271,12 @@ grid-gap: 1rem;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
   border-radius:5px;
+  border:2px solid var(--grey);
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background: var(--glass);
-  color: #CB4335;
+  color: var(--nav-link);
   overflow: hidden;
 
 
