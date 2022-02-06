@@ -576,7 +576,7 @@ font-size: 40px;
 #about{
 
 width:90%;
-margin:auto;
+margin:0 auto 20px auto ;
 background-color: var(--light);
 color:var(--nav-link);
 border-radius: 5px;
@@ -588,14 +588,12 @@ border-radius: 5px;
 #about h3{
 	padding-left:30px;
 	border-bottom: 1px solid var(--grey);
+	color:var(--the-blue);
 }
 #about p{
 	margin-bottom: 10px;
 }
 
-#about h3{
-	color:var(--the-blue);
-}
 
 #about span{
 	color:var(--nav-link);
@@ -603,3 +601,27 @@ border-radius: 5px;
 }
 
 /*mobile skills*/
+#skills{
+	width:90%;
+margin:0 auto 20px auto ;
+background-color: var(--light);
+color:var(--nav-link);
+border-radius: 5px;
+}
+#skills ul{
+	list-style-type:upper-roman;
+	padding: 30px 30px 30px 60px;
+
+}
+
+#skills h3{
+	padding-left:30px;
+	border-bottom: 1px solid var(--grey);
+	color:var(--the-blue);
+	
+}
+
+#skills span{
+	color:var(--nav-link);
+	font-size: 40px;
+}
