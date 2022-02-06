@@ -421,7 +421,8 @@ main{
   height: 55px;
   overflow: hidden;
   transition: height .5s ease-in-out;
-  position: fixed;
+  position: sticky;
+  top:0;
   background-color: var(--light);
 }
 .nav-brand, .nav-link, .nav-collapse {
@@ -443,6 +444,8 @@ main{
 }
 .nav-collapse {
   float: right;
+  border-top:1px solid var(--grey);
+
 }
 .toggler {
   float: right;
@@ -491,6 +494,7 @@ main{
 }
 .nav.open {
   height: 65vh;
+
 }
 
 
@@ -503,12 +507,13 @@ main{
   .nav-collapse, .nav-link {
     float: none;
     display: block;
+
     
   }
   
   .nav-link {
     text-align: center;
-  
+  text-transform: uppercase;
    
   }
   .toggler {
@@ -516,3 +521,53 @@ main{
   }
 }
 /*end of navbar*/
+
+
+/* mobile home*/
+#home{
+	display:flex;
+	 align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 20px auto;
+	color:var(--the-blue);
+	height:80vh;
+
+
+	text-transform: uppercase;
+}
+
+#home img{
+	width:80%;
+	margin:20px auto;
+}
+
+
+#resume{
+	display:flex;
+	align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
+   display: block;
+   margin:20px auto;
+}
+#resume a{
+	text-decoration: none;
+	background-color: var(--light);
+	padding:10px 40px;
+	border-radius: 	5px;
+	color:var(--the-blue);
+
+}
+#dot{
+font-size: 40px;
+	color:var(--the-blue)
+}
+
+#nameandposition{
+	text-align: center;
+	margin:10px auto;
+}
+
+
+/*mobile about*/
