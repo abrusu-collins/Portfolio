@@ -604,9 +604,16 @@ border-radius: 5px;
 #skills{
 	width:90%;
 margin:0 auto 20px auto ;
-background-color: var(--light);
-color:var(--nav-link);
+color:var(--light);
 border-radius: 5px;
+
+
+
+
+background-image: url("download.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
 }
 #skills ul{
 	list-style-type:upper-roman;
@@ -617,13 +624,12 @@ border-radius: 5px;
 
 #skills h3{
 	padding-left:30px;
-	border-bottom: 1px solid var(--grey);
-	color:var(--the-blue);
+	border-bottom: 1px solid var(--light);
 	
 }
 
 #skills span{
-	color:var(--nav-link);
+	color:var(--light);
 	font-size: 40px;
 }
 
@@ -717,3 +723,10 @@ align-items: flex-start;
 justify-content: space-between;
 }
 
+#footer{
+	margin:0 auto 20px auto ;
+
+}
+.fa-heart{
+color:var(--the-blue)
+}
