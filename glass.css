@@ -529,9 +529,9 @@ main{
 	 align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin: 10px auto;
+	margin: -30px auto 10px auto;
 	color:var(--the-blue);
-	height:88vh;
+	height:95vh;
 
 
 	text-transform: uppercase;
