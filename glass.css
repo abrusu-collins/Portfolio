@@ -529,7 +529,7 @@ main{
 	 align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin: 20px auto;
+	margin: 10px auto;
 	color:var(--the-blue);
 	height:88vh;
 
