@@ -728,5 +728,9 @@ justify-content: space-between;
 
 }
 .fa-heart{
-color:var(--the-blue)
+color:var(--the-blue);
+}
+#footer span{
+	font-size: 40px;
+	color:var(--the-blue);
 }
