@@ -578,8 +578,16 @@ font-size: 40px;
 width:90%;
 margin:auto;
 background-color: var(--light);
-padding:30px;
 color:var(--nav-link);
+border-radius: 5px;
+}
+#inner{
+	padding:30px;
+
+}
+#about h3{
+	padding-left:30px;
+	border-bottom: 1px solid var(--grey);
 }
 #about p{
 	margin-bottom: 10px;
@@ -593,3 +601,5 @@ color:var(--nav-link);
 	color:var(--nav-link);
 	font-size: 40px;
 }
+
+/*mobile skills*/
