@@ -109,3 +109,8 @@ document.querySelector('.toggler').onclick = () => {
 }
 
 /*Dark Mode*/
+let darkbutton=document.getElementById("darkbtn");
+darkbutton.addEventListener("click",(event)=>{
+event.preventDefault();
+document.body.style.backgroundColor="#000";
+})
