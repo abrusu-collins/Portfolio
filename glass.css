@@ -766,10 +766,27 @@ color:var(--the-blue);
 
 }
 
+/*Dark Mode*/
+#darkbtn{
+width:60%;
+padding:10px 40px;
+border-radius: 5px;
+
+}
 
 
 .black{
 
 	background: rgba(53, 53, 53, 0.47);
     backdrop-filter: blur(62px);
+
+}
+.bodydark{
+	background-color:#000;
+}
+
+
+.dashboardright{
+	border-right: 2px solid #000 ;
+
 }

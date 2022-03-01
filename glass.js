@@ -9,8 +9,10 @@ var skills = document.querySelector(".skills");
 var projects = document.querySelector(".projects");
 var contacts = document.querySelector(".contacts");
 var content = document.querySelector(".content");
+var section = document.querySelector(".section");
+var dashboard = document.querySelector(".dashboard");
 
-
+dashboard
 
 
 
@@ -112,5 +114,9 @@ document.querySelector('.toggler').onclick = () => {
 let darkbutton=document.getElementById("darkbtn");
 darkbutton.addEventListener("click",(event)=>{
 event.preventDefault();
-document.body.style.backgroundColor="#000";
+document.body.classList.add("bodydark");
+section.classList.add("black");
+dashboard.classList.add("black");
+dashboard.classList.add("dashboardright");
+
 })
