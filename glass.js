@@ -11,8 +11,10 @@ var contacts = document.querySelector(".contacts");
 var content = document.querySelector(".content");
 var section = document.querySelector(".section");
 var dashboard = document.querySelector(".dashboard");
-
-dashboard
+var description = document.querySelector(".description");
+var skillsul = document.querySelector(".skills ul");
+var projectfront=document.querySelectorAll(".flip-card-front p");
+var contactsh2 = document.querySelectorAll(".contacts h2");
 
 
 
@@ -111,12 +113,59 @@ document.querySelector('.toggler').onclick = () => {
 }
 
 /*Dark Mode*/
-let darkbutton=document.getElementById("darkbtn");
-darkbutton.addEventListener("click",(event)=>{
+let darkbuttoncl=document.querySelector(".darkbtn");
+let darkbuttonid=document.getElementById("darkbtn");
+let lightbuttoncl=document.querySelector(".lightbtn");
+
+lightbuttoncl
+darkbuttoncl.addEventListener("click",(event)=>{
 event.preventDefault();
 document.body.classList.add("bodydark");
 section.classList.add("black");
 dashboard.classList.add("black");
 dashboard.classList.add("dashboardright");
+description.classList.add("whitecolor");
+skillsul.classList.add("whitecolor");
+skillsul.classList.add("whitecolor");
+Array.from(projectfront).forEach((p)=>{
+  p.classList.add("whitecolor");
+});
+Array.from(contactsh2).forEach((h2)=>{
+  h2.classList.add("whitecolor");
 
+})
+darkbuttonid.classList.remove("darkbtn");
+darkbuttonid.classList.add("lightbtn");
+darkbuttonid.textContent='Light Mode';
+
+
+}
+
+)
+
+
+
+lightbtn.addEventListener("click",(event)=>{
+
+  event.preventDefault();
+
+
+
+  document.body.classList.remove("bodydark");
+section.classList.remove("black");
+dashboard.classList.remove("black");
+dashboard.classList.remove("dashboardright");
+description.classList.remove("whitecolor");
+skillsul.classList.remove("whitecolor");
+skillsul.classList.remove("whitecolor");
+Array.from(projectfront).forEach((p)=>{
+  p.classList.remove("whitecolor");
+});
+Array.from(contactsh2).forEach((h2)=>{
+  h2.classList.removeadd("whitecolor");
+
+})
+darkbuttonid.classList.remove("darkbtn");
+darkbuttonid.classList.remove("lightbtn");
+darkbuttonid.textContent='Dark Mode';
 })

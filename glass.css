@@ -120,10 +120,7 @@ padding:6px 0;
 
 }
 
-#darkbtn{
- color:var(--black);
-font-weight: 700;
-}
+
 /*Controls*/
 
 
@@ -772,9 +769,21 @@ width:60%;
 padding:10px 40px;
 border-radius: 5px;
 
+font-weight: 700;
+
+}
+.darkbtn{
+	color:var(--black) !important;
+	background: rgba(53, 53, 53, 0.47);
+    backdrop-filter: blur(62px);
 }
 
 
+.lightbtn{
+	color:var(--light) !important;
+	background: rgba(53, 53, 53, 0.47);
+    backdrop-filter: blur(62px);
+}
 .black{
 
 	background: rgba(53, 53, 53, 0.47);
@@ -789,4 +798,7 @@ border-radius: 5px;
 .dashboardright{
 	border-right: 2px solid #000 ;
 
+}
+.whitecolor{
+	color:var(--light) !important;
 }
