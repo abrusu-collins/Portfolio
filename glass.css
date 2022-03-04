@@ -773,15 +773,13 @@ font-weight: 700;
 
 }
 .darkbtn{
-	color:var(--black) !important;
-	background: rgba(53, 53, 53, 0.47);
+	color:var(--light) !important;
+	background: #000;
     backdrop-filter: blur(62px);
 }
 
 
 .lightbtn{
-	color:var(--light) !important;
-	background: rgba(53, 53, 53, 0.47);
     backdrop-filter: blur(62px);
 }
 .black{

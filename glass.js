@@ -117,8 +117,10 @@ let darkbuttoncl=document.querySelector(".darkbtn");
 let darkbuttonid=document.getElementById("darkbtn");
 let lightbuttoncl=document.querySelector(".lightbtn");
 
-darkbuttoncl.addEventListener("click",(event)=>{
-event.preventDefault();
+darkbuttoncl.addEventListener("click",(e)=>{
+e.preventDefault();
+
+if(e.target.classList.contains("darkbtn") && e.target.classList.contains("lightbtn")){
 document.body.classList.add("bodydark");
 section.classList.add("black");
 dashboard.classList.add("black");
@@ -134,19 +136,43 @@ Array.from(contactsh2).forEach((h2)=>{
 
 });
 darkbuttonid.classList.remove("darkbtn");
-darkbuttonid.classList.add("lightbtn");
 darkbuttonid.textContent='Light Mode';
+darkbuttonid.style.backgroundColor='#fff';
+darkbuttonid.style.color='#000';
 
+}
 
+else{
+
+  document.body.classList.remove("bodydark");
+section.classList.remove("black");
+dashboard.classList.remove("black");
+dashboard.classList.remove("dashboardright");
+description.classList.remove("whitecolor");
+skillsul.classList.remove("whitecolor");
+skillsul.classList.remove("whitecolor");
+Array.from(projectfront).forEach((p)=>{
+  p.classList.remove("whitecolor");
+});
+Array.from(contactsh2).forEach((h2)=>{
+  h2.classList.remove("whitecolor");
+
+})
+darkbuttonid.classList.add("darkbtn");
+darkbuttonid.textContent='Dark Mode';
+darkbuttonid.style.backgroundColor='#000';
+darkbuttonid.style.color='#fff';
+
+}
 }
 
 );
 
 
 
-lightbuttoncl.addEventListener("click",(event)=>{
+// lightbuttoncl.addEventListener("click",(event)=>{
 
-  event.preventDefault();
+//   event.preventDefault();
 
 
 
@@ -166,5 +192,5 @@ lightbuttoncl.addEventListener("click",(event)=>{
 // // })
 // darkbuttonid.classList.add("darkbtn");
 // darkbuttonid.classList.remove("lightbtn");
-darkbuttonid.textContent='Dark Mode';
-});
+// darkbuttonid.textContent='Dark Mode';
+// });
