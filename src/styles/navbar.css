@@ -30,18 +30,19 @@
   transition: height .5s ease-in-out;
   position: sticky;
   top:0;
-  background-color: var(--light);
+  background-color: #f1e9da;
   font-family: 'Space Grotesk', sans-serif;
+  font-weight:400 ;
 }
 .nav-brand, .nav-link, .nav-collapse {
   display: inline-block;
 }
 .nav-brand, .nav-link {
-  color:var(--nav-link) ;
+  color:#333333;
   text-decoration: none;
   line-height: 55px;
   padding: 0 1rem;
-  opacity: 0.8;
+  opacity: 1;
   cursor: pointer;
 }
 .nav-brand {
@@ -64,7 +65,7 @@
   border: none;
   outline: none;
   display: none;
-  opacity: 0.8;
+  opacity: 1;
 }
 .toggler span {
   display: block;
@@ -86,7 +87,7 @@
 
 .nav-brand:hover, .nav-link:hover, .toggler:hover, 
 .nav-brand:focus, .nav-link:focus, .toggler:focus {
-  opacity: 1;
+  opacity: .8;
 }
 
 .nav.open .toggler span:nth-child(1) {

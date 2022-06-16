@@ -25,7 +25,7 @@ function Navbar() {
 
         <nav className="nav">
                   <div className="container">
-                    <a className="nav-item nav-brand" href="#">COLLINS<span id="dot">.</span></a>
+                    <a className="nav-item nav-brand" href="#home">COLLINS<span id="dot">.</span></a>
                     <button className="toggler">
                       <span></span>
                       <span></span>
