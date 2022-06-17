@@ -1,7 +1,7 @@
 import "../styles/skills.css";
 import reeact from "./img/react.png";
 import html from "./img/html.jpg";
-import css from "./img/css.jpg";
+import css from "./img/css.webp";
 import js from "./img/js.png";
 import git from "./img/git.jpg";
 import bootstrap from "./img/bootstrap.png";
@@ -20,7 +20,7 @@ function Skills() {
             <p>HTML5</p>
             </li>
         <li>
-            <img src={css} alt="" />
+            <img src={css} alt=""  />
             <p>CSS3</p>
             </li>
         <li>

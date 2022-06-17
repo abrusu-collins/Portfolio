@@ -20,7 +20,7 @@
   font-weight: 700;
 }
 .gif img {
-  width: 100%;
+  width: 150%;
 }
 
 .about {
@@ -36,7 +36,10 @@
   width: 10%;
   animation: sed infinite 3s ease-in-out;
 }
-
+.socials{
+  display: flex;
+  align-items: center;
+}
 .socials img {
   margin-right: 10px;
 }

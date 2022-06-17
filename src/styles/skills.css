@@ -25,6 +25,10 @@ font-size: 50px;
     
 }
 
+.skills ul li:hover{
+    filter: grayscale(100%);
+}
+
 .techskills{
     width:70%;
     margin:auto;
@@ -34,6 +38,9 @@ font-size: 50px;
     flex-direction: column;
     text-align: center;
 margin: 30px auto}
+
 .techskills img{
     width:50%;
+}
+.techskills img :hover{    transform: scale(1);
 }
