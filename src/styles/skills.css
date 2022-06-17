@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@font-face {
+    font-family: Apercu;
+    src: url("../components/Apercu.otf");
+}
+
+.skills{
+    height:50vh;
+    background-color:#0c0e88;
+}
+.skills h1{
+    font-family: "Inter", sans-serif;
+color:#fcfeff;
+text-align: center;
+padding:30px;
+font-size: 50px;
+}
+
+.skills ul{
+    list-style:none;
+    font-family: Apercu;
+    font-size: 19px;
+    color:#e3e3fc;
+    display: flex;
+    
+}
+
+.techskills{
+    width:70%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+margin: 30px auto}
+.techskills img{
+    width:50%;
+}

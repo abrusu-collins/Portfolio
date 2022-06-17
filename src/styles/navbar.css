@@ -23,7 +23,7 @@
   padding: 0 1rem;
 }
 .nav {
-
+z-index: 1;
   width: 100%;
   height: 55px;
   overflow: hidden;
@@ -108,7 +108,7 @@
 
 
  nav.scrolled {
-  background: var(--light);
+  
   box-shadow: 0 1px 5px rgba(104,104,104,0.8);
 }
 

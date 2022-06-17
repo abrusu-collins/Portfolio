@@ -9,7 +9,7 @@ function Navbar() {
     window.onscroll = function() {
     
       // pageYOffset or scrollY
-      if (window.pageYOffset > 600 ) {
+      if (window.pageYOffset > 10 ) {
         navbar.classList.add('scrolled')
       } else {
         navbar.classList.remove('scrolled')
