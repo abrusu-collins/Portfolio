@@ -11,7 +11,7 @@ import redux from "./img/redux.png";
 
 function Skills() {
     return ( 
-    <div className="skills">
+    <div className="skills" id="skills">
    <h1>Technical Skills</h1>
   <div className="techskills">
     <ul>

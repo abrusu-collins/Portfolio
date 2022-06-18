@@ -4,7 +4,7 @@ function Mail() {
     return ( 
 
 
-        <div className="mail">
+        <div className="mail" id="getintouch">
             <h1>Get In Touch</h1>
 
            <div className="meet">

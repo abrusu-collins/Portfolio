@@ -1,7 +1,7 @@
 import "../styles/blog.css"
 function Blog() {
     return ( 
-        <div className="blog">
+        <div className="blog" id="blog">
            <h1> Recent Blog Posts</h1>
     <div className="top">
            <div className="bloghead">

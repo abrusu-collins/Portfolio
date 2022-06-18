@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-*{font-family: 'Roboto', sans-serif;}
+*{font-family: 'Roboto', sans-serif;
+scroll-behavior: smooth;}
 .experience{
     /* height:130vh; */
     background-color: #0c0e88;
@@ -16,4 +17,11 @@
     font-size: 50px;
    
     /* background-color:#0f256e; */
+}
+.experience a{
+    color: inherit;
+    background-color: rgb(33, 150, 243);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 2px;
 }

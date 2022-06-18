@@ -6,7 +6,7 @@ import linkedin from "./LinkedIn.svg";
 import "../styles/hero.css";
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <div className="about">
         <div className="flex1">
           <div>

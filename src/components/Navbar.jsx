@@ -32,12 +32,12 @@ function Navbar() {
                       <span></span>
                     </button>
                     <div className="nav-collapse">
-                      <a className="nav-item nav-link" href="#home">Home</a>
-                       <a className="nav-item nav-link" href="#about">Skills</a>
-                        <a className="nav-item nav-link" href="#skills">Projects</a>
-                        <a className="nav-item nav-link" href="#projects">Experience</a>
-                      <a className="nav-item nav-link" href="#contacts">Blog</a>
-                      <a className="nav-item nav-link" href="#contacts">Get In Touch</a>
+                      <a className="nav-item nav-link" href="#">Home</a>
+                       <a className="nav-item nav-link" href="#skills">Skills</a>
+                        <a className="nav-item nav-link" href="#projects">Projects</a>
+                        <a className="nav-item nav-link" href="#experience">Experience</a>
+                      <a className="nav-item nav-link" href="#blog">Blog</a>
+                      <a className="nav-item nav-link" href="#getintouch">Get In Touch</a>
 
                       
                       

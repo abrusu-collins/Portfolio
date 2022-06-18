@@ -5,7 +5,7 @@ function Experience() {
     return ( 
 
 
-        <div className="experience">
+        <div className="experience"  id='experience'>
 
             <h1>Work Experience</h1>
 
@@ -42,7 +42,7 @@ function Experience() {
     <h4 className="vertical-timeline-element-subtitle">College Bootcamp</h4>
     <p>
 Taught my juniors front-end technologies (HTML5, CSS3, Bootstrap, and JavaScript) during a Bootcamp 
-which takes place every year at my college
+which takes place every year at my college.
     </p>
     <p>Built projects with them to show them how to use the technologies I taught them.</p>
     <p> Completed 200+ comprehensive student code reviews aimed at encouraging idiomatic coding style and 
@@ -62,7 +62,7 @@ scalable solutions.</p>
     Developed websites for small businesses and individuals to help their works to be online.
 
     </p>
-    <p> This is a link to the most recent site I developed and hosted for a graphic designer, this helped people find 
+    <p> This is a <a href="https://edemcreatives.netlify.app/">link</a> to the most recent site I developed and hosted for a graphic designer, this helped people find 
 his works and order designs from him through the website. After launching the website, he went from 
 getting less than 10 orders a week to getting 25+ orders a week.</p>
     
@@ -80,7 +80,7 @@ getting less than 10 orders a week to getting 25+ orders a week.</p>
     <p>
     Redesigned and Implemented a User Interface for the company’s website with the team, The new website’s 
 performance was way better than the first one and we also recorded an increase in sales per week after 
-launching
+launching.
     </p>
     
   </VerticalTimelineElement>
