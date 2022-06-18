@@ -27,6 +27,15 @@ function Blog() {
         <div className="read"><a href="https://clistesblog.netlify.app/categories/javascript%20posts/the%20arguments%20object/">Read</a></div>
 
           </div>
+
+          <div className="posts">
+        <div className="posthead">
+           <h3>The arguments object</h3>
+           <p> 24th October 2021</p>
+        </div>
+        <div className="read"><a href="https://clistesblog.netlify.app/categories/javascript%20posts/the%20arguments%20object/">Read</a></div>
+
+          </div>
           </div>
 
           <a href="https://clistesblog.netlify.app/" className="visit">Visit Blog✍️</a>
