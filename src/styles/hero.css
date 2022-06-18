@@ -18,6 +18,16 @@
 }
 .name {
   font-weight: 700;
+  font-family: "Inter", sans-serif;
+
+}
+.resume{
+  text-decoration: none;
+  background-color: #edb554;
+  font-size: 20px;
+  color:#333333;
+  padding: 5px 20px;
+border-radius: 4px;
 }
 .gif img {
   width: 150%;

@@ -110,6 +110,7 @@ z-index: 1;
  nav.scrolled {
   
   box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+  background-color: rgba(241,233,218,.8);
 }
 
 @media (max-width: 767px) {

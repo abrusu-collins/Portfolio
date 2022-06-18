@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{font-family: 'Roboto', sans-serif;}
 .experience{
     /* height:130vh; */
     background-color: #0c0e88;
+    padding-bottom: 60px;
 }
 
 .experience h1{

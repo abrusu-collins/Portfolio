@@ -2,7 +2,6 @@ import gif from "./working.gif";
 import wave from "./Wave.png";
 import twitter from "./Twitter.svg";
 import linkedin from "./LinkedIn.svg";
-import { GithubOutlined } from '@ant-design/icons';
 
 import "../styles/hero.css";
 function Hero() {
@@ -24,9 +23,8 @@ function Hero() {
             <a href="https://twitter.com/devSedem">
               <img src={twitter} alt="twitter" />
             </a>
-           <a href="https://github.com/abrusu-collins"> 
-           <GithubOutlined style={{ height:"40px",width:"40px", color: '#000',textDecoration:"none" }}/>
-           </a>
+           
+           <a href="https://twitter.com/devSedem" className="resume">Résumé</a>
           </div>
         </div>
         <div className="gif flex2">
