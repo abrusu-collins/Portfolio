@@ -33,10 +33,12 @@ function Navbar() {
                     </button>
                     <div className="nav-collapse">
                       <a className="nav-item nav-link" href="#home">Home</a>
-                       <a className="nav-item nav-link" href="#about">About</a>
-                        <a className="nav-item nav-link" href="#skills">Skills</a>
-                        <a className="nav-item nav-link" href="#projects">Projects</a>
-                      <a className="nav-item nav-link" href="#contacts">Contacts</a>
+                       <a className="nav-item nav-link" href="#about">Skills</a>
+                        <a className="nav-item nav-link" href="#skills">Projects</a>
+                        <a className="nav-item nav-link" href="#projects">Experience</a>
+                      <a className="nav-item nav-link" href="#contacts">Blog</a>
+                      <a className="nav-item nav-link" href="#contacts">Get In Touch</a>
+
                       
                       
                     </div>

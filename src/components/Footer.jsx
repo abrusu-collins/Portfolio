@@ -5,7 +5,7 @@ function Footer() {
     
     return ( 
         <div className="footer">
-            <p>Designed and Developed By Collins Abrusu | {year}</p>
+            <p>Designed and Developed By Collins Abrusu | &copy; {year}</p>
         </div>
      );
 }
