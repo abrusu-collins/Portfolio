@@ -1,5 +1,11 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faBookReader} from '@fortawesome/free-solid-svg-icons';
+import { faHouseLaptop} from '@fortawesome/free-solid-svg-icons'
+
+
 import "../styles/experience.css"
 function Experience() {
     return ( 
@@ -20,7 +26,7 @@ function Experience() {
     contentArrowStyle={{ borderRight: '7px solid  #edb554' }}
     date="06/2022-present"
     iconStyle={{ background: '#ae944f', color: '#333333' }}
-    // icon={<WorkIcon />}
+    icon= {<FontAwesomeIcon icon={faLaptopCode } />}
   >
     <h3 className="vertical-timeline-element-title"> Front-End Developer</h3>
     <h4 className="vertical-timeline-element-subtitle">Jejelly</h4>
@@ -36,7 +42,7 @@ function Experience() {
     contentArrowStyle={{ borderRight: '7px solid  #edb554' }}
     date="04/2021 – 05/2021"
     iconStyle={{ background: '#ae944f', color: '#333333' }}
-    // icon={<WorkIcon />}
+    icon= {<FontAwesomeIcon icon={faBookReader } />}
   >
     <h3 className="vertical-timeline-element-title">Front-End Development Instructor</h3>
     <h4 className="vertical-timeline-element-subtitle">College Bootcamp</h4>
@@ -54,7 +60,7 @@ scalable solutions.</p>
     contentArrowStyle={{ borderRight: '7px solid  #edb554' }}
     date="09/2020 – Present"
     iconStyle={{ background: '#ae944f', color: '#333333' }}
-    // icon={<WorkIcon />}
+    icon= {<FontAwesomeIcon icon={faHouseLaptop } />}
   >
     <h3 className="vertical-timeline-element-title">Freelance Front-End Developer</h3>
     <h4 className="vertical-timeline-element-subtitle">Remote</h4>
@@ -73,7 +79,7 @@ getting less than 10 orders a week to getting 25+ orders a week.</p>
     contentArrowStyle={{ borderRight: '7px solid  #edb554' }}
     date="06/2020 – 12/2020"
     iconStyle={{ background: '#ae944f', color: '#333333' }}
-    // icon={<WorkIcon />}
+    icon= {<FontAwesomeIcon icon={faLaptopCode } />}
   >
     <h3 className="vertical-timeline-element-title"> Front-End Developer Intern </h3>
     <h4 className="vertical-timeline-element-subtitle">Hypacart</h4>
