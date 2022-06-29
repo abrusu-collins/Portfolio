@@ -6,11 +6,11 @@
 
 .skills{
     height:50vh;
-    background-color:#0c0e88;
+    background-color:#e9d5a1;
 }
 .skills h1{
     font-family: "Inter", sans-serif;
-color:#fcfeff;
+color:#333333;
 text-align: center;
 padding:30px;
 font-size: 50px;
@@ -20,7 +20,7 @@ font-size: 50px;
     list-style:none;
     font-family: Apercu;
     font-size: 19px;
-    color:#e3e3fc;
+    color:#333333;
     display: flex;
     
 }

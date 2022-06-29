@@ -16,10 +16,10 @@ function Experience() {
 
 <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#000F64', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #000F64' }}
+    contentStyle={{ background: '#edb554', color: '#333333' }}
+    contentArrowStyle={{ borderRight: '7px solid  #edb554' }}
     date="06/2022-present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: '#ae944f', color: '#333333' }}
     // icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title"> Front-End Developer</h3>
@@ -32,10 +32,10 @@ function Experience() {
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#000F64', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #000F64' }}
+    contentStyle={{ background: '#edb554', color: '#333333' }}
+    contentArrowStyle={{ borderRight: '7px solid  #edb554' }}
     date="04/2021 – 05/2021"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: '#ae944f', color: '#333333' }}
     // icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">Front-End Development Instructor</h3>
@@ -50,10 +50,10 @@ scalable solutions.</p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#000F64', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #000F64' }}
+    contentStyle={{ background: '#edb554', color: '#333333' }}
+    contentArrowStyle={{ borderRight: '7px solid  #edb554' }}
     date="09/2020 – Present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: '#ae944f', color: '#333333' }}
     // icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">Freelance Front-End Developer</h3>
@@ -69,10 +69,10 @@ getting less than 10 orders a week to getting 25+ orders a week.</p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: '#000F64', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #000F64' }}
+    contentStyle={{ background: '#edb554', color: '#333333' }}
+    contentArrowStyle={{ borderRight: '7px solid  #edb554' }}
     date="06/2020 – 12/2020"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: '#ae944f', color: '#333333' }}
     // icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title"> Front-End Developer Intern </h3>
