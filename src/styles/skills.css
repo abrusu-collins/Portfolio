@@ -5,8 +5,8 @@
 }
 
 .skills{
-    height:50vh;
     background-color:#e9d5a1;
+    padding-bottom: 30px;
 }
 .skills h1{
     font-family: "Inter", sans-serif;
@@ -16,14 +16,7 @@ padding:30px;
 font-size: 50px;
 }
 
-/* .skills ul{
-    list-style:none;
-    font-family: Apercu;
-    font-size: 19px;
-    color:#333333;
-    display: flex;
-    
-} */
+
 
 .skills img:hover{
     filter: grayscale(100%);

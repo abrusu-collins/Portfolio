@@ -1,12 +1,12 @@
 import "../styles/skills.css";
-import reeact from "./img/react.png";
-import html from "./img/html.png";
-import css from "./img/css.png";
-import js from "./img/js.png";
-import git from "./img/git.png";
-import bootstrap from "./img/bootstrap.png";
-import sass from "./img/sass.png";
-import redux from "./img/redux.png";
+import reeact from "./img/react.svg";
+import html from "./img/html.svg";
+import css from "./img/css.svg";
+import js from "./img/js.svg";
+import git from "./img/git.svg";
+import bootstrap from "./img/bootstrap.svg";
+import sass from "./img/sass.svg";
+import redux from "./img/redux.svg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
