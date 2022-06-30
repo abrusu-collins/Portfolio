@@ -18,9 +18,7 @@ font-size: 50px;
 
 
 
-.skills img:hover{
-    filter: grayscale(100%);
-}
+
 
 .techskills{
     width:70%;
