@@ -21,10 +21,8 @@ function Skills() {
         <img src={css} alt="css" data-aos={"fade-up"} />
 
         <img src={js} alt="js" data-aos={"fade-down"} />
-
-        <img src={sass} alt="sass" data-aos={"fade-up"} />
-
         <img src={bootstrap} alt="bootstrap" data-aos={"fade-down"} />
+        <img src={sass} alt="sass" data-aos={"fade-up"} />
 
         <img src={reeact} alt="react" data-aos={"fade-up"} />
 
