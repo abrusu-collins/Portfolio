@@ -16,21 +16,21 @@ function Skills() {
     <div className="skills" id="skills">
       <h1>Technical Skills</h1>
       <div className="techskills">
-        <img src={html} alt="" data-aos={"fade-down"} />
+        <img src={html} alt="html" data-aos={"fade-down"} />
 
-        <img src={css} alt="" data-aos={"fade-up"} />
+        <img src={css} alt="css" data-aos={"fade-up"} />
 
-        <img src={js} alt="" data-aos={"fade-down"} />
+        <img src={js} alt="js" data-aos={"fade-down"} />
 
-        <img src={sass} alt="" data-aos={"fade-up"} />
+        <img src={sass} alt="sass" data-aos={"fade-up"} />
 
-        <img src={bootstrap} alt="" data-aos={"fade-down"} />
+        <img src={bootstrap} alt="bootstrap" data-aos={"fade-down"} />
 
         <img src={reeact} alt="react" data-aos={"fade-up"} />
 
-        <img src={redux} alt="" data-aos={"fade-down"} />
+        <img src={redux} alt="redux" data-aos={"fade-down"} />
 
-        <img src={git} alt="" data-aos={"fade-up"} />
+        <img src={git} alt="git" data-aos={"fade-up"} />
       </div>
     </div>
   );

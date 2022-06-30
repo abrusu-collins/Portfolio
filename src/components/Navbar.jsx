@@ -23,7 +23,7 @@ function Navbar() {
     return ( 
 
 
-        <nav className="nav">
+        <nav className="nav" >
                   <div className="container">
                     <a className="nav-item nav-brand" href="#home">COLLINS<span id="dot">.</span></a>
                     <button className="toggler">
@@ -32,7 +32,7 @@ function Navbar() {
                       <span></span>
                     </button>
                     <div className="nav-collapse">
-                      <a className="nav-item nav-link" href="#">Home</a>
+                      <a className="nav-item nav-link" href="#home">Home</a>
                        <a className="nav-item nav-link" href="#skills">Skills</a>
                         <a className="nav-item nav-link" href="#projects">Projects</a>
                         <a className="nav-item nav-link" href="#experience">Experience</a>
