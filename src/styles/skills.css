@@ -16,16 +16,16 @@ padding:30px;
 font-size: 50px;
 }
 
-.skills ul{
+/* .skills ul{
     list-style:none;
     font-family: Apercu;
     font-size: 19px;
     color:#333333;
     display: flex;
     
-}
+} */
 
-.skills ul li:hover{
+.skills img:hover{
     filter: grayscale(100%);
 }
 
@@ -35,12 +35,10 @@ font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
 margin: 30px auto}
 
 .techskills img{
-    width:50%;
-}
-.techskills img :hover{    transform: scale(1);
+    width:8%;
 }
