@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{font-family: 'Roboto', sans-serif;
+scroll-behavior: smooth;}
+.experience{
+    /* height:130vh; */
+    background-color: #e9d5a1;
+    padding-bottom: 60px;
+}
+
+.experience h1{
+    font-family: "Inter", sans-serif;
+    color:#333333;
+    text-align: center;
+    padding:30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+   
+    /* background-color:#0f256e; */
+}
+.experience a{
+    color: #fcfeff;
+    background-color: #ae944f;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 2px;
+}

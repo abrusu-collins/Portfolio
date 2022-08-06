@@ -1,0 +1,59 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+.blog{
+
+    background-color: #f1e9da;
+    padding-bottom: 60px;
+    color:#333333;
+    font-size: 17px;
+    
+}
+.top{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+.blog h1{
+    font-family: "Inter", sans-serif;
+    
+    text-align: center;
+    padding:30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+   
+    /* background-color:#0f256e; */
+}
+.bloghead{
+    margin-bottom: 30px;
+}
+.posts{
+ 
+    border:3px solid #d9ccb5;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding :30px 40px;
+    margin-bottom:30px;
+
+   
+}
+
+.blogposts{
+margin:20000px;
+}
+
+.blog a{
+    text-decoration: none;
+    color:#333333;
+    background-color:#edb554;
+    padding:10px 30px;
+    border-radius:5px;
+}
+.visit{
+    display: inline;
+    text-align: center;
+}
